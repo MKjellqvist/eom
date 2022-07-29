@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <menu id="app-menu">
+        <section>
+            <item>
+                <attribute name="label">_View image file</attribute>
+                <attribute name="action">win.open</attribute>
+            </item>
+            <item>
+                <attribute name="label">View _directory</attribute>
+                <attribute name="action">win.open-directory</attribute>
+            </item>
+        </section>
+        <section>
+            <item>
+                <attribute name="label">_Fullscreen</attribute>
+                <attribute name="action">win.fullscreen</attribute>
+            </item>
+            <item>
+                <attribute name="label">_Slideshow</attribute>
+                <attribute name="action">win.slideshow</attribute>
+            </item>
+        </section>
+
+        <section>
+            <item>
+                <attribute name="label" translatable="yes">Save changes</attribute>
+                <attribute name="action">win.save</attribute>
+            </item>
+            <item>
+                <attribute name="label" translatable="yes">_Quit</attribute>
+                <attribute name="action">win.leave-fullscreen</attribute>
+            </item>
+        </section>
+
+    </menu>
+</interface>
