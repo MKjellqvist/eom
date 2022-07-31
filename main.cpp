@@ -577,8 +577,6 @@ void toggle_fullscreen() {
     app_widgets.scrolled_window->set_max_content_height(app_widgets.overlay->get_height());
     app_widgets.scrolled_window->set_max_content_width(app_widgets.overlay->get_width());
     app_widgets.scrolled_window->set_policy(Gtk::PolicyType::POLICY_AUTOMATIC, Gtk::PolicyType::POLICY_AUTOMATIC);
-    app_widgets.scrolled_window->set_border_width(40);
-
 }
 
 void next_image() {
